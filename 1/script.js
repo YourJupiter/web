@@ -17,6 +17,22 @@ variant >= 7 ? alert("Вірно") : alert("Невірно");
 a % 2 == 0 ? a += 7 : a -= 3;
 alert(a);
 
+a = 5;
+a % 2 == 0 ? a += 7 : a -= 3;
+alert(a);
+
+a = 0;
+a % 2 == 0 ? a += 7 : a -= 3;
+alert(a);
+
+a = -3;
+a % 2 == 0 ? a += 7 : a -= 3;
+alert(a);
+
+a = 2;
+a % 2 == 0 ? a += 7 : a -= 3;
+alert(a); 
+
 
 //task 4
 variant = 5;
