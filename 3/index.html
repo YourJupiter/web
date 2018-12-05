@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <div id="list-header">Users:</div>
+  <ul>
+    <li>John</li>
+    <li>Peter</li>
+  </ul>
+
+
+  <script>
+	//task 1
+	alert(document.head.innerHTML)
+
+	//task 2
+	var listHeader = document.getElementById("list-header");
+	listHeader.append(' 5')
+	listHeader.style.fontWeight = 'bold';
+
+	//task 3 
+	var listElements = document.querySelectorAll("ul li");
+	listElements[1].innerHTML = "Jana";
+
+	//task 4
+	for (var i = 0; i < listElements.length; i++) {
+		listElements[i].style.color = "#555";
+	}
+  </script>
+
+</body>
+
+</html>
