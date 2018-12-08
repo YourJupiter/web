@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<title>Laba4</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<meta http-equiv="Cintent - Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+<div class ="container">
+<div class = "row">
+<div class = "col-sm-12 col-md-8" >
+<table id = "bookmarks" class="table">
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Description</th>
+<th>Link</th>
+<th>Actions</th>
+</tr>
+
+</table>
+</div>
+
+<div class="col-sm-12 col-md-4">
+<form id="addBm" onsubmit="fController.submit(event)">
+<p><input type="text" name="name" id="nameInput" placeholder="Name" required></p>
+<p><input type="text" name="desc" id="descInput" placeholder="Description" required></p>
+
+<p><input type="text" name="link" placeholder="Link" required="" id="linkInput"></p>
+<input type="hidden" id="idInput" name="id">
+<button id="sendData">Send Data</button>
+			</form>
+		</div>
+	</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
